@@ -1,0 +1,15 @@
+{
+    "name": "test-task-sibirix",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.ts",
+    "scripts": {
+        "start": "ts-node app"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^16.7.8"
+    }
+}
