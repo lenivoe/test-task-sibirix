@@ -39,7 +39,7 @@ function main() {
             write(`store: ${storeId}`);
             write(`distance: ${pathLength}`);
             write(`path: ${pathStr}\n`);
-        } catch (e) {
+        } catch (e: any) {
             write(e.message + '\n');
         }
     }
